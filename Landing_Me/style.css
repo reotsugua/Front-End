@@ -45,8 +45,10 @@ body{
 .conteudo-principal{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: space-around;
+    padding: 0 8% 0 5%;
 }
 
 .conteudo-principal-escrito{
@@ -88,7 +90,7 @@ body{
 }
 
 .conteudo-principal-imagem{
-    height: 430px;
+    max-width: 90%;
 }
 
 .conteudo-secundario{
@@ -97,6 +99,7 @@ body{
     align-items: center;
     gap: 24px;
     margin-top: 48px;
+    padding: 0 10% 0 8%;
 }
 
 .conteudo-secundario-titulo{
